@@ -21,25 +21,29 @@ Este projeto é um blog desenvolvido com o framework Laravel. O objetivo é cria
 
 Laravel é acessível, poderoso e fornece as ferramentas necessárias para aplicações grandes e robustas.
 
-## Aprendendo Laravel
+## Iniciar o Projeto
 
-Laravel possui a documentação mais extensa e completa e uma biblioteca de tutoriais em vídeo de todos os frameworks de aplicação web modernos, tornando fácil começar com o framework.
+```
+git clone https://github.com/GuiDev115/lara-blog.git
+```
 
-Você também pode experimentar o [Laravel Bootcamp](https://bootcamp.laravel.com), onde você será guiado na construção de uma aplicação Laravel moderna do zero.
+- Copie o que está no .env.example e crie seu .env
+- Configure suas senhas do banco de dados que usará [no caso estou usando MySql]
 
-Se você não gosta de ler, [Laracasts](https://laracasts.com) pode ajudar. Laracasts contém milhares de tutoriais em vídeo sobre uma variedade de tópicos, incluindo Laravel, PHP moderno, testes unitários e JavaScript. Melhore suas habilidades explorando nossa biblioteca de vídeos abrangente.
+#### Crie uma App Key
+
+``` Crie uma App Key
+php artisan key:generate
+```
+
+#### Crie um Migrate
+``` Crie um Migrate
+php artisan migrate
+```
 
 ## Contribuindo
 
-Obrigado por considerar contribuir para o projeto! O guia de contribuição pode ser encontrado na [documentação do Laravel](https://laravel.com/docs/contributions).
-
-## Código de Conduta
-
-Para garantir que a comunidade Laravel seja acolhedora para todos, por favor, revise e siga o [Código de Conduta](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Vulnerabilidades de Segurança
-
-Se você descobrir uma vulnerabilidade de segurança no Laravel, por favor, envie um e-mail para Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). Todas as vulnerabilidades de segurança serão tratadas prontamente.
+Pode contribuir colocando desde a Issues, Pull Requests ou até mesmo um code review. 🥰🥰🥰
 
 ## Licença
 
